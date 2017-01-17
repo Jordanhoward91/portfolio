@@ -1,7 +1,8 @@
 module DeviseWhitelist
   extend ActiveSupport::Concern
 
-  included do before_filter :configure_permitted_parameters, if: :devise_controller?
+  included do 
+  	before_filter :configure_permitted_parameters, if: :devise_controller?
   end
 
 
