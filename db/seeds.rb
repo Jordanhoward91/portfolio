@@ -27,9 +27,9 @@ puts "5 skills created"
 
 puts "9 portfolio items created"
 
-3.times do |technology|
+3.times do |tech|
 	Portfolio.last.technologies.create!(
-		name: "Technology #{Tec}", 
+		name: "Technology #{tech}", 
 		portfolio_id: Portfolio.last.id
 	)
 end
