@@ -57,4 +57,6 @@ gem 'friendly_id', '~> 5.1.0'
  
  gem 'bootstrap', '~> 4.0.0.alpha6'
 
+ gem 'petergate', '~> 1.7'
+
  gem 'Howard_View_Tool', git: 'https://github.com/Jordanhoward91/Howard_view_tool'
