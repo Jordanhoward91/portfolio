@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Jordanhoward91/Howard_view_tool
+  revision: 0ce4deddfffcf730e50edb6cec0034b580aad06a
+  specs:
+    Howard_View_Tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -173,6 +179,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  Howard_View_Tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
