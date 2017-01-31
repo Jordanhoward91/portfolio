@@ -35,3 +35,5 @@ puts "9 portfolio items created"
 end
 
 puts "3 technologies created"
+
+User.create!(email: "Jordanhoward1991@gmail.com", name: "Jordan", password: "baskINmyGLORY1", password_confirmation: "baskINmyGLORY1", roles: :site_admin)
